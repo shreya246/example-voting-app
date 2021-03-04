@@ -8,12 +8,12 @@ spec:
   replicas: 10
   selector:
     matchLabels:
-      app: infinite-calls
+      component: web
   template:
     metadata:
       name: infinite-calls
       labels:
-        app: infinite-calls
+        component: web
 spec:
       containers:
       - name: infinite-calls
